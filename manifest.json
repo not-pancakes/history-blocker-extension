@@ -1,0 +1,13 @@
+{
+  "name": "History Blocker",
+  "description": "Helps you, made by Pancakes",
+  "version": "69.420",
+  "manifest_version": 3,
+  "incognito": "split",
+  "chrome_url_overrides": {
+    "history": "save.html"
+  },
+  "action": {
+        "default_popup": "popup.html"
+  }
+}
